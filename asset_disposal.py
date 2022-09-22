@@ -19,7 +19,7 @@ class Tools:
                 elif "https://" in i:
                     lines[number] = i.replace("https://", "")
                 number = number + 1
-            print(lines)
+            #print(lines)
         # 去除前缀后，以列表创建集合并去重
         domain = set(lines)
         with open(self.name2, 'w', encoding='utf-8') as f2:
